@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157598571-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157598571-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="AdlH-ysxiYPOU-zJvVCDl4hCaS_qQOB9owzJEmJytCQ" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="">
+    <meta name="author" content="IL2 stats 1.2.39">
+
+    <link rel="icon" href="https://static.combatbox.net/favicon.4a189f9db1f3.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+        href="https://static.combatbox.net/apple-touch-icon-57x57.2940dcc64b95.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="https://static.combatbox.net/apple-touch-icon-114x114.18282abffdfe.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="https://static.combatbox.net/apple-touch-icon-72x72.2ecd3b4567d4.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="https://static.combatbox.net/apple-touch-icon-144x144.0dc3a6cda0df.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60"
+        href="https://static.combatbox.net/apple-touch-icon-60x60.033b942f8d6a.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="https://static.combatbox.net/apple-touch-icon-120x120.ff4d7a2fc4eb.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"
+        href="https://static.combatbox.net/apple-touch-icon-76x76.13f21158f756.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+        href="https://static.combatbox.net/apple-touch-icon-152x152.a1faf8ed4c9a.png" />
+    <link rel="icon" type="image/png" href="https://static.combatbox.net/favicon-196x196.f0771ddc53ab.png"
+        sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://static.combatbox.net/favicon-96x96.e5f35f2efc70.png"
+        sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://static.combatbox.net/favicon-128.6c0ba072eea0.png"
+        sizes="128x128" />
+    <meta name="application-name" content="IL2 stats 1.2.39" />
+    <meta name="msapplication-TileColor" content="#353535" />
+    <meta name="msapplication-TileImage" content="https://static.combatbox.net/mstile-144x144.0dc3a6cda0df.png" />
+    <meta name="msapplication-square70x70logo" content="https://static.combatbox.net/mstile-70x70.6c0ba072eea0.png" />
+    <meta name="msapplication-square150x150logo"
+        content="https://static.combatbox.net/mstile-150x150.c2d33adc0175.png" />
+    <meta name="msapplication-wide310x150logo" content="https://static.combatbox.net/mstile-310x150.1044e40ab319.png" />
+    <meta name="msapplication-square310x310logo"
+        content="https://static.combatbox.net/mstile-310x310.33397620626e.png" />
+
+    <title>COMBAT BOX (IL2 stats)</title>
+
+    <link
+        href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext'
+        rel='stylesheet' type='text/css'>
+
+    <link href="https://static.combatbox.net/css/style.51b4eeb572c8.css" rel="stylesheet">
+    <script>
+        var LANGUAGE_CODE = 'en';
+        var TOUR_ID = 21;
+    </script>
+
+
+</head>
+
+<body>
+    <noscript>
+        <div id="enable_javascript">
+            For full functionality of this site it is necessary to enable JavaScript. Here are the <a
+                href="//www.enable-javascript.com" target="_blank"> instructions how to enable JavaScript in your web
+                browser</a>.
+        </div>
+    </noscript>
+
+    <header style="background: none !important;">
+        <div class="wrapper">
+            <div class="head_title_sm">Combat Box by Red Flight - Late War Scenarios - NA/EU server</div>
+            <div class="head_title">COMBAT BOX</div>
+            <div class="user_menu">
+
+                <a href="/en/profile/registration/">Registration</a>
+                <a href="/en/profile/login/">Login</a>
+
+            </div>
+        </div>
+        <iframe 
+            style=
+                "position: absolute;
+                width: 1920px;
+                height: 185px;
+                top: -31rem;
+                /* min-width: 100%; */
+                min-height: 41%;
+                z-index: -1;" 
+        
+        id="ytplayer" type="text/html" width="1800" height="180" src="https://www.youtube.com/embed/bdszsbpnOiw?controls=0&autoplay=1&loop=1&disablekb=1&playsinline=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </header>
+
+    <nav style= 
+        "background: rgba(12,12,12,1);
+        height: 7rem;"
+    id="nav_main">
+        <div class="nav_main">
+            <div class="nav_menu">
+                <a href="/en/?tour=21">Main</a>
+                <div class="nav_sub_menu">
+                    Rankings &#x25BE;
+                    <div class="nav_sub_menu_items">
+                        <a href="/en/pilots/?tour=21">Pilot Rankings</a>
+                        <a href="/en/squads/?tour=21">Squad Rankings</a>
+                    </div>
+                </div>
+                <a href="/en/missions/?tour=21">Missions</a>
+                <a href="/en/maps/">Maps</a>
+                <a href="https://discord.gg/Rcjj33E" target="_blank">Discord</a>
+                <a href="/en/info/">Info</a>
+                <!--a href="/en/faq/">FAQ</a-->
+                <a href="/en/supporters/">Supporters</a>
+                <a href="https://www.patreon.com/bePatron?u=336940" target=_"blank">Donate</a>
+
+                <a href="https://forum.il2sturmovik.com/topic/44919-combat-box-by-red-flight/" target="_blank">Forum</a>
+
+            </div>
+            <div class="nav_tour">
+                Tour:
+                <div class="nav_tour_select">
+                    <div class="nav_tour_selected">
+                        April 2020
+                    </div>
+                    <div class="nav_tour_items">
+
+
+                        <a href="?tour=21">
+                            <div class="nav_tour_item">April 2020</div>
+                        </a>
+
+
+
+                        <a href="?tour=20">
+                            <div class="nav_tour_item">March 2020</div>
+                        </a>
+
+
+
+                        <a href="?tour=19">
+                            <div class="nav_tour_item">February 2020</div>
+                        </a>
+
+
+
+                        <a href="?tour=17">
+                            <div class="nav_tour_item">January 2020</div>
+                        </a>
+
+
+
+                        <a href="?tour=16">
+                            <div class="nav_tour_item">December 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=15">
+                            <div class="nav_tour_item">November 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=14">
+                            <div class="nav_tour_item">October 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=13">
+                            <div class="nav_tour_item">September Giveaway Tour</div>
+                        </a>
+
+
+
+                        <a href="?tour=12">
+                            <div class="nav_tour_item">September 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=11">
+                            <div class="nav_tour_item">August 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=10">
+                            <div class="nav_tour_item">July 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=9">
+                            <div class="nav_tour_item">June 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=8">
+                            <div class="nav_tour_item">May 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=7">
+                            <div class="nav_tour_item">Late-April &quot;stats update&quot; tour</div>
+                        </a>
+
+
+
+                        <a href="?tour=5">
+                            <div class="nav_tour_item">April launch tour</div>
+                        </a>
+
+
+
+                        <a href="?tour=4">
+                            <div class="nav_tour_item">April 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=3">
+                            <div class="nav_tour_item">March 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=2">
+                            <div class="nav_tour_item">February 2019</div>
+                        </a>
+
+
+
+                        <a href="?tour=1">
+                            <div class="nav_tour_item">January 2019</div>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <section style="margin-top: -5.1rem;" id="main">
+        <div class="wrapper">
+            <div class="dominant_coal">
+                Current Tour: April 2020 <br />
+                Current Map: <a target="_blank" style="text-decoration: underline dotted"
+                    href="https://il2missionplanner.com/#combatbox">Battle-for-Kalinin-Aug-1944</a>, 2 hours 14 minutes
+                remaining<br />
+                Next Maps: The_Rhineland_Campaign_Feb_1945, Closing_of_the_Ruhr_Pocket_Apr_1945
+            </div>
+
+            <div class="general_block">
+
+                <div class="dominant_bars" style="
+					display: flex;
+					justify-content: center;
+					height: 26rem;
+					padding: 5px 5px 5px 5px;
+				">
+                    <iframe src="https://il2missionplanner.com/#combatbox" class="iframeContainer" style="
+					justify-content: center;
+					display: flex;
+					align-items: center;
+					height: 24rem;
+					width: 45rem;
+					padding: 1rem;
+				"></iframe>
+                </div>
+
+                <div class="dominant_bars">
+                    <div class="bar_win_missions">
+                        <div style="position: absolute; font-size: 13px; color: #5C5C5C;">
+                            Dominance
+                        </div>
+                        <div class="bar_title">
+                            Won missions
+                        </div>
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 50%;"></div>
+
+                            <div class="bar_red" style="width: 42%;"></div>
+                        </div>
+                        <div class="bar_red_num">20</div>
+                        <div class="bar_blue_num">28</div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+
+                    <div class="bar_small" style="float: left;">
+                        <div class="bar_icon">
+                            <img src="https://static.combatbox.net/img/icons/small/ak.8cf89a4b352e.png" width="18"
+                                height="18" alt="" title="">
+                        </div>
+                        <div class="bar_title">
+                            Shotdown aircraft
+                        </div>
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 25%;"></div>
+                            <div class="bar_grid" style="width: 50%;"></div>
+                            <div class="bar_grid" style="width: 75%;"></div>
+
+                            <div class="bar_red" style="width: 46%;"></div>
+                        </div>
+                        <div class="bar_red_num">2307</div>
+                        <div class="bar_blue_num">2683</div>
+                    </div>
+
+                    <div class="bar_small" style="float: right;">
+                        <div class="bar_icon">
+                            <img src="https://static.combatbox.net/img/icons/small/gk.38cfea3035c7.png" width="18"
+                                height="18" alt="" title="">
+                        </div>
+                        <div class="bar_title">
+                            Ground targets destroyed
+                        </div>
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 25%;"></div>
+                            <div class="bar_grid" style="width: 50%;"></div>
+                            <div class="bar_grid" style="width: 75%;"></div>
+
+                            <div class="bar_red" style="width: 36%;"></div>
+                        </div>
+                        <div class="bar_red_num">12577</div>
+                        <div class="bar_blue_num">22427</div>
+                    </div>
+
+                    <div class="bar_small" style="float: left;">
+                        <div class="bar_icon">
+                            <img src="https://static.combatbox.net/img/icons/small/score.da42134dc8e5.png" width="18"
+                                height="18" alt="" title="">
+                        </div>
+                        <div class="bar_title">
+                            Score
+
+                        </div>
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 25%;"></div>
+                            <div class="bar_grid" style="width: 50%;"></div>
+                            <div class="bar_grid" style="width: 75%;"></div>
+
+                            <div class="bar_red" style="width: 47%;"></div>
+                        </div>
+                        <div class="bar_red_num">530956</div>
+                        <div class="bar_blue_num">606171</div>
+                    </div>
+
+                    <div class="bar_small" style="float: right;">
+                        <div class="bar_icon">
+                            <img src="https://static.combatbox.net/img/icons/small/ft.94eca8efdc67.png" width="18"
+                                height="18" alt="" title="">
+                        </div>
+                        <div class="bar_title">
+                            Flight time (hours)
+
+                        </div>
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 25%;"></div>
+                            <div class="bar_grid" style="width: 50%;"></div>
+                            <div class="bar_grid" style="width: 75%;"></div>
+
+                            <div class="bar_red" style="width: 53%;"></div>
+                        </div>
+                        <div class="bar_red_num">
+                            2143
+                        </div>
+                        <div class="bar_blue_num">
+                            1906
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="top_pilots" style="float: left;">
+                    <div class="top_title">
+                        Best pilots in the last 24 hours
+                    </div>
+                    <div class="top_table">
+                        <div class="head_row">
+                            <div class="cell" style="width: 30px;">#</div>
+                            <div class="cell">pilot nickname</div>
+                            <div class="cell" style="width: 30px;"></div>
+                            <div class="cell">score</div>
+                        </div>
+
+                        <a class="row" href="/en/pilot/1654/III/JG52_Lucho/?tour=21">
+                            <div class="cell">1</div>
+                            <div class="cell">III/JG52_Lucho</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">9019</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/124/III/JG52_Supongo/?tour=21">
+                            <div class="cell">2</div>
+                            <div class="cell">III/JG52_Supongo</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">4153</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/1662/C6_PetiO----Youtube/?tour=21">
+                            <div class="cell">3</div>
+                            <div class="cell">C6_PetiO----Youtube</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">3692</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/239/69th_WarEagle/?tour=21">
+                            <div class="cell">4</div>
+                            <div class="cell">69th_WarEagle</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">3543</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/1363/CIA_Elanski/?tour=21">
+                            <div class="cell">5</div>
+                            <div class="cell">CIA_Elanski</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">3393</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/58/JG300_Faucon/?tour=21">
+                            <div class="cell">6</div>
+                            <div class="cell">JG300_Faucon</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">3291</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/10477/312Romin/?tour=21">
+                            <div class="cell">7</div>
+                            <div class="cell">312Romin</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">3211</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/3026/Krupinskii/?tour=21">
+                            <div class="cell">8</div>
+                            <div class="cell">Krupinskii</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">2626</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/203/MeoW.Scharfi/?tour=21">
+                            <div class="cell">9</div>
+                            <div class="cell">MeoW.Scharfi</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">2539</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
+                            <div class="cell">10</div>
+                            <div class="cell">QB.Creep</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">2439</div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+                <div class="top_pilots" style="float: right;">
+                    <div class="top_title">
+                        Best live pilots
+                    </div>
+                    <div class="top_table">
+                        <div class="head_row">
+                            <div class="cell" style="width: 30px;">#</div>
+                            <div class="cell">pilot nickname</div>
+                            <div class="cell" style="width: 30px;"></div>
+                            <div class="cell">score</div>
+                        </div>
+
+                        <a class="row" href="/en/pilot/2944/-332FG-Magic_Zach/?tour=21">
+                            <div class="cell">1</div>
+                            <div class="cell">-332FG-Magic_Zach</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">6525</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
+                            <div class="cell">2</div>
+                            <div class="cell">QB.Creep</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">5095</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/158/71st_AH_Barnacles/?tour=21">
+                            <div class="cell">3</div>
+                            <div class="cell">71st_AH_Barnacles</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">5011</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/1196/=EXPEND=13SchwarzeHand/?tour=21">
+                            <div class="cell">4</div>
+                            <div class="cell">=EXPEND=13SchwarzeHand</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">4616</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/4688/=EXPEND=Dendro/?tour=21">
+                            <div class="cell">5</div>
+                            <div class="cell">=EXPEND=Dendro</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">4148</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/371/QB.Rails/?tour=21">
+                            <div class="cell">6</div>
+                            <div class="cell">QB.Rails</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">3789</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/2865/=VARP=Affe-mit-Waffe/?tour=21">
+                            <div class="cell">7</div>
+                            <div class="cell">=VARP=Affe-mit-Waffe</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">3439</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/828/=EXPEND=CG_Justin/?tour=21">
+                            <div class="cell">8</div>
+                            <div class="cell">=EXPEND=CG_Justin</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">3139</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/161/15%5BSpan.%5D/JG51Navarro/?tour=21">
+                            <div class="cell">9</div>
+                            <div class="cell">15[Span.]/JG51Navarro</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                    width="15" height="24" title="Axis" alt="Axis">
+
+
+                            </div>
+                            <div class="cell">2790</div>
+                        </a>
+
+                        <a class="row" href="/en/pilot/1653/6FG_Moonbeam/?tour=21">
+                            <div class="cell">10</div>
+                            <div class="cell">6FG_Moonbeam</div>
+                            <div class="cell img">
+
+
+                                <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                    width="15" height="24" title="Allies" alt="Allies">
+
+
+                            </div>
+                            <div class="cell">2278</div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="clearfix"></div>
+
+                <div class="full_rating">
+                    <a href="/en/pilots/?tour=21">
+                        <span>
+                            Overall Pilot Rankings
+                        </span>
+                    </a>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="additional_block">
+
+                <div class="legend">
+                    <div class="title">
+                        Coalitions
+                    </div>
+                    <div class="legend_items">
+                        <div class="legend_item">
+                            <div class="square red"></div>
+                            Allies
+                        </div>
+                        <div class="legend_item">
+                            <div class="square blue"></div>
+                            Axis
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tour">
+                    <div class="title">
+                        Tour: April 2020
+                    </div>
+                    <div class="tour_bar">
+
+                        <div class="bar_progress" style="width: 20%;"></div>
+                    </div>
+                    <div class="tour_end">
+                        24 days left
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="active_players">
+                    <div class="title">
+                        Active players
+                    </div>
+                    <div class="total">
+                        total
+                    </div>
+                    <div class="total_num">
+                        1556
+                    </div>
+
+                    <div class="bar_mini" style="float: right;">
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 50%;"></div>
+
+                            <div class="bar_red" style="width: 42%;"></div>
+
+                            <div class="bar_blue" style="width: 45%;"></div>
+                        </div>
+                        <div class="bar_red_num">
+                            648
+                        </div>
+                        <div class="bar_gray_num">
+                            214
+                        </div>
+                        <div class="bar_blue_num">
+                            694
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+
+
+
+
+                <div class="online_widget">
+                    <div class="title">
+                        Online
+                    </div>
+                    <div class="total">
+                        pilots
+                    </div>
+                    <div class="total_num">
+                        14
+                    </div>
+
+                    <div class="bar_mini" style="float: right;">
+                        <div class="bar">
+                            <div class="bar_grid" style="width: 50%;"></div>
+
+                            <div class="bar_red" style="width: 21%;"></div>
+
+                            <div class="bar_blue" style="width: 79%;"></div>
+                        </div>
+                        <div class="bar_red_num">
+                            3
+                        </div>
+                        <div class="bar_blue_num">
+                            11
+                        </div>
+                    </div>
+                    <a class="online_button" href="/en/online/">
+                        List of pilots online
+                    </a>
+
+                    <div class="clearfix"></div>
+                </div>
+
+
+
+            </div>
+
+            <div class="clearfix"></div>
+
+
+            <div class="previous_tour">
+                <div class="title">
+                    Summary previous tour
+                </div>
+
+                <div class="winner">
+
+                    <div class="color_line blue"></div>
+
+                    <div class="coalition">
+                        <span>winner</span><br>
+                        Axis
+                    </div>
+                </div>
+
+
+                <div class="top_pilots">
+                    <div class="title">Top Pilots</div>
+                    <div class="top_pilots_columns">
+
+                        <a class="pilot" href="/en/pilot/1196/=EXPEND=13SchwarzeHand/?tour=20">
+                            <div class="num">1</div>
+                            <div class="nickname">=EXPEND=13SchwarzeHand</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/3026/Krupinskii/?tour=20">
+                            <div class="num">2</div>
+                            <div class="nickname">Krupinskii</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/3251/Riksen/?tour=20">
+                            <div class="num">3</div>
+                            <div class="nickname">Riksen</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1603/VBF-12_Snake9/?tour=20">
+                            <div class="num">4</div>
+                            <div class="nickname">VBF-12_Snake9</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1455/=%5BV%5DP=vad-asz/?tour=20">
+                            <div class="num">5</div>
+                            <div class="nickname">=[V]P=vad-asz</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/58/JG300_Faucon/?tour=20">
+                            <div class="num">6</div>
+                            <div class="nickname">JG300_Faucon</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/165/SixGuns/?tour=20">
+                            <div class="num">7</div>
+                            <div class="nickname">SixGuns</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/228/TeufelHunden/?tour=20">
+                            <div class="num">8</div>
+                            <div class="nickname">TeufelHunden</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1334/=ABr=RMPinheiro/?tour=20">
+                            <div class="num">9</div>
+                            <div class="nickname">=ABr=RMPinheiro</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/888/=SFG=Canuck52/?tour=20">
+                            <div class="num">10</div>
+                            <div class="nickname">=SFG=Canuck52</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1168/CrazyGman/?tour=20">
+                            <div class="num">11</div>
+                            <div class="nickname">CrazyGman</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/2996/Batzet/?tour=20">
+                            <div class="num">12</div>
+                            <div class="nickname">Batzet</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/944/Cecil/?tour=20">
+                            <div class="num">13</div>
+                            <div class="nickname">Cecil</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/6368/Tentacle_jet/?tour=20">
+                            <div class="num">14</div>
+                            <div class="nickname">Tentacle_jet</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1363/CIA_Elanski/?tour=20">
+                            <div class="num">15</div>
+                            <div class="nickname">CIA_Elanski</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1257/ACG_Bayern/?tour=20">
+                            <div class="num">16</div>
+                            <div class="nickname">ACG_Bayern</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/907/=ILS=_AirC0mbatN00b_34/?tour=20">
+                            <div class="num">17</div>
+                            <div class="nickname">=ILS=_AirC0mbatN00b_34</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/3523/=EXPEND=Tripwire/?tour=20">
+                            <div class="num">18</div>
+                            <div class="nickname">=EXPEND=Tripwire</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/188/RH_Killer/?tour=20">
+                            <div class="num">19</div>
+                            <div class="nickname">RH_Killer</div>
+                        </a>
+
+                        <a class="pilot" href="/en/pilot/1421/=BLW=Phoen1x/?tour=20">
+                            <div class="num">20</div>
+                            <div class="nickname">=BLW=Phoen1x</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footer_il2_stats_logo">
+                    <img src="https://static.combatbox.net/img/il2_stats_logo_sm.d81496c4af2d.png" width="53"
+                        height="36" alt="" title="">
+                </div>
+                <div class="footer_left">
+
+                    Powered by <strong>IL2 <i>stats</i> 1.2.39</strong>
+
+                    <div class="footer_lang">
+                        |
+
+
+                        <a class="lang" href="/ru/">Русская версия</a>
+                        <a class="lang" href="/de/">Deutsche Version</a>
+                        <a class="lang" href="/es/">Spanish version</a>
+                        <a class="lang" href="/fr/">Française version</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.0/URI.min.js"></script>
+
+    <script src="https://static.combatbox.net/js/common.797547051d96.js"></script>
+    <script src="https://static.combatbox.net/js/paginator3000.77205f8827bf.js"></script>
+
+    <script>
+        $('.iframeContainer').hover(function () {
+            $(this).addClass('hover');
+        },
+            function () {
+                $(this).removeClass('hover');
+            });
+    </script>
+
+
+
+
+    <!-- Yandex.Metrika counter -->
+    <script
+        type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter32171674 = new Ya.Metrika({ id: 32171674, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/32171674" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript><!-- /Yandex.Metrika counter -->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-10792172-15', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        var $buoop = { c: 2 };
+        function $buo_f() {
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.min.js";
+            document.body.appendChild(e);
+        };
+        try {
+            document.addEventListener("DOMContentLoaded", $buo_f, false)
+        }
+        catch (e) {
+            window.attachEvent("onload", $buo_f)  
+        }
+    </script>
+
+</body>
+
+</html>

@@ -18,6 +18,8 @@
     <meta name="description" content="">
     <meta name="author" content="IL2 stats 1.2.39">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
     <link rel="icon" href="https://static.combatbox.net/favicon.4a189f9db1f3.ico">
     <link rel="apple-touch-icon-precomposed" sizes="57x57"
         href="https://static.combatbox.net/apple-touch-icon-57x57.2940dcc64b95.png" />
@@ -91,37 +93,40 @@
     </noscript>
 
     <header>
-        <div class="header-image-wrapper">
-            <div class="wrapper">
-                <div class="head_title_sm">Combat Box by Red Flight - Late War Scenarios - NA/EU server</div>
-                <div class="head_title">COMBAT BOX</div>
-                <div class="user_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header-image-wrapper">
+                    <div class="wrapper">
+                        <div class="head_title_sm">Combat Box by Red Flight - Late War Scenarios - NA/EU server</div>
+                        <div class="head_title">COMBAT BOX</div>
+                        <div class="user_menu">
 
-                    <a href="/en/profile/registration/">Registration</a>
-                    <a href="/en/profile/login/">Login</a>
+                            <a href="/en/profile/registration/">Registration</a>
+                            <a href="/en/profile/login/">Login</a>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-video-wrapper">
+                    <div class="wrapper">
+                        <div class="head_title_sm">Combat Box by Red Flight - Late War Scenarios - NA/EU server</div>
+                        <div class="head_title">COMBAT BOX</div>
+                        <div class="user_menu">
+
+                            <a href="/en/profile/registration/">Registration</a>
+                            <a href="/en/profile/login/">Login</a>
+
+                        </div>
+                    </div>
+
+                    <iframe class="video-window" id="ytplayer" type="text/html" width="600" height="180"
+                        src="https://www.youtube.com/embed/RI2sZNy50Xc?controls=0&autoplay=1&disablekb=1&playsinline=1&mute=1&loop=1"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; loop"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
-
-        <div class="header-video-wrapper">
-            <div class="wrapper">
-                <div class="head_title_sm">Combat Box by Red Flight - Late War Scenarios - NA/EU server</div>
-                <div class="head_title">COMBAT BOX</div>
-                <div class="user_menu">
-
-                    <a href="/en/profile/registration/">Registration</a>
-                    <a href="/en/profile/login/">Login</a>
-
-                </div>
-            </div>
-
-            <iframe class="video-window" id="ytplayer" type="text/html" width="600" height="180"
-                src="https://www.youtube.com/embed/RI2sZNy50Xc?controls=0&autoplay=1&disablekb=1&playsinline=1&mute=1&loop=1"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; loop"
-                allowfullscreen></iframe>
-        </div>
-
 
     </header>
 
@@ -184,17 +189,19 @@
 
 
 
-    <section class="main-section row" id="main">
+    <div class="container-fluid" id="main">
 
-        <div class="col-12">
-            <div class="card ">
-                <div class="card-body">
-                    <h5 class="card-title">Current Tour: April 2020</h5>
-                    <h5 class="card-title">Current Map: <a target="_blank" style="text-decoration: underline dotted"
-                            href="https://il2missionplanner.com/#combatbox">Battle-for-Kalinin-Aug-1944</a></h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">2 hours 14 minutes</div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card ">
+                    <div class="card-body">
+                        <h5 class="card-title">Current Tour: April 2020</h5>
+                        <h5 class="card-title">Current Map: <a target="_blank" style="text-decoration: underline dotted"
+                                href="https://il2missionplanner.com/#combatbox">Battle-for-Kalinin-Aug-1944</a></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">2 hours 14 minutes</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -202,530 +209,526 @@
 
 
 
-        <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6">
 
-            <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="mission-planner-wrapper card my-2">
+                    <iframe src="https://il2missionplanner.com/#combatbox" class="iframeContainer"></iframe>
+                </div>
 
-                    <div class="mission-planner-wrapper card my-2">
-                        <iframe src="https://il2missionplanner.com/#combatbox" class="iframeContainer"></iframe>
+                <div class="card">
+                    <div class="card-text pl-1">Dominance</div>
+                    <h3 class="card-title d-flex justify-content-center">Won Missions</h3>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 42%"
+                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">20</div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 58%"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">28</div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-text pl-1">Dominance</div>
-                        <h3 class="card-title d-flex justify-content-center">Won Missions</h3>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-10">
-                                <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 42%"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">20</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 58%"
-                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">28</div>
-                                </div>
+                    <div class="row">
+
+                        <div class="col-6">
+                            <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Shotdown
+                                Aircraft
                             </div>
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-6">
-                                <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Shotdown
-                                    Aircraft
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <div class="col-10">
-                                        <img src="images/planeicon.png" width="18" height="18">
-                                        <div class="progress small-bars">
-                                            <div class="progress-bar bg-primary small-bars" role="progressbar"
-                                                style="width: 42%" aria-valuenow="15" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                2307</div>
-                                            <div class="progress-bar bg-danger small-bars" role="progressbar"
-                                                style="width: 58%" aria-valuenow="20" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                2683</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-6">
-                                <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Score</div>
-                                <div class="d-flex justify-content-center">
-                                    <div class="col-10">
-                                        <img src="images/scoreicon.png" width="18" height="18">
-                                        <div class="progress small-bars">
-                                            <div class="progress-bar bg-primary small-bars" role="progressbar"
-                                                style="width: 45%" aria-valuenow="15" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                530956</div>
-                                            <div class="progress-bar bg-danger small-bars" role="progressbar"
-                                                style="width: 55%" aria-valuenow="20" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                606171</div>
-                                        </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-10">
+                                    <img src="images/planeicon.png" width="18" height="18">
+                                    <div class="progress small-bars">
+                                        <div class="progress-bar bg-primary small-bars" role="progressbar"
+                                            style="width: 42%" aria-valuenow="15" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            2307</div>
+                                        <div class="progress-bar bg-danger small-bars" role="progressbar"
+                                            style="width: 58%" aria-valuenow="20" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            2683</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row">
 
-                            <div class="col-6">
-                                <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Ground
-                                    Targets
-                                    Destroyed</div>
-                                <div class="d-flex justify-content-center">
-                                    <div class="col-10">
-                                        <img src="images/groundtargetsdestroyedicon.png" width="18" height="18">
-                                        <div class="progress small-bars">
-                                            <div class="progress-bar bg-primary small-bars" role="progressbar"
-                                                style="width: 25%" aria-valuenow="15" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                12577</div>
-                                            <div class="progress-bar bg-danger small-bars" role="progressbar"
-                                                style="width: 75%" aria-valuenow="20" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                22427</div>
-                                        </div>
+                        <div class="col-6">
+                            <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Score</div>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-10">
+                                    <img src="images/scoreicon.png" width="18" height="18">
+                                    <div class="progress small-bars">
+                                        <div class="progress-bar bg-primary small-bars" role="progressbar"
+                                            style="width: 45%" aria-valuenow="15" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            530956</div>
+                                        <div class="progress-bar bg-danger small-bars" role="progressbar"
+                                            style="width: 55%" aria-valuenow="20" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            606171</div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-6">
-                                <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Flight time
-                                    (hours)</div>
-                                <div class="d-flex justify-content-center">
-                                    <div class="col-10">
-                                        <img src="images/flighthoursicon.png" width="18" height="18">
-                                        <div class="progress small-bars">
-                                            <div class="progress-bar bg-primary small-bars" role="progressbar"
-                                                style="width: 53%" aria-valuenow="15" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                2143</div>
-                                            <div class="progress-bar bg-danger small-bars" role="progressbar"
-                                                style="width: 47%" aria-valuenow="20" aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                1906</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
                         </div>
-                        <div class="pb-3"></div>
                     </div>
 
+                    <div class="row">
 
-                    <!-- 
-                        <div class="top_pilots" style="float: left;">
-                            <div class="top_title">
-                                Best pilots in the last 24 hours
-                            </div>
-                            <div class="top_table">
-                                <div class="head_row">
-                                    <div class="cell" style="width: 30px;">#</div>
-                                    <div class="cell">pilot nickname</div>
-                                    <div class="cell" style="width: 30px;"></div>
-                                    <div class="cell">score</div>
+                        <div class="col-6">
+                            <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Ground
+                                Targets
+                                Destroyed</div>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-10">
+                                    <img src="images/groundtargetsdestroyedicon.png" width="18" height="18">
+                                    <div class="progress small-bars">
+                                        <div class="progress-bar bg-primary small-bars" role="progressbar"
+                                            style="width: 25%" aria-valuenow="15" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            12577</div>
+                                        <div class="progress-bar bg-danger small-bars" role="progressbar"
+                                            style="width: 75%" aria-valuenow="20" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            22427</div>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <a class="row" href="/en/pilot/1654/III/JG52_Lucho/?tour=21">
-                                    <div class="cell">1</div>
-                                    <div class="cell">III/JG52_Lucho</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
+                        <div class="col-6">
+                            <div class="card-text d-flex justify-content-center pt-3 small-bars-title">Flight time
+                                (hours)</div>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-10">
+                                    <img src="images/flighthoursicon.png" width="18" height="18">
+                                    <div class="progress small-bars">
+                                        <div class="progress-bar bg-primary small-bars" role="progressbar"
+                                            style="width: 53%" aria-valuenow="15" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            2143</div>
+                                        <div class="progress-bar bg-danger small-bars" role="progressbar"
+                                            style="width: 47%" aria-valuenow="20" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            1906</div>
                                     </div>
-                                    <div class="cell">9019</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/124/III/JG52_Supongo/?tour=21">
-                                    <div class="cell">2</div>
-                                    <div class="cell">III/JG52_Supongo</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">4153</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/1662/C6_PetiO----Youtube/?tour=21">
-                                    <div class="cell">3</div>
-                                    <div class="cell">C6_PetiO----Youtube</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">3692</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/239/69th_WarEagle/?tour=21">
-                                    <div class="cell">4</div>
-                                    <div class="cell">69th_WarEagle</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">3543</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/1363/CIA_Elanski/?tour=21">
-                                    <div class="cell">5</div>
-                                    <div class="cell">CIA_Elanski</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">3393</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/58/JG300_Faucon/?tour=21">
-                                    <div class="cell">6</div>
-                                    <div class="cell">JG300_Faucon</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">3291</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/10477/312Romin/?tour=21">
-                                    <div class="cell">7</div>
-                                    <div class="cell">312Romin</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">3211</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/3026/Krupinskii/?tour=21">
-                                    <div class="cell">8</div>
-                                    <div class="cell">Krupinskii</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">2626</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/203/MeoW.Scharfi/?tour=21">
-                                    <div class="cell">9</div>
-                                    <div class="cell">MeoW.Scharfi</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">2539</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
-                                    <div class="cell">10</div>
-                                    <div class="cell">QB.Creep</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">2439</div>
-                                </a>
-
+                                </div>
                             </div>
                         </div>
 
 
 
-                        <div class="top_pilots" style="float: right;">
-                            <div class="top_title">
-                                Best live pilots
-                            </div>
-                            <div class="top_table">
-                                <div class="head_row">
-                                    <div class="cell" style="width: 30px;">#</div>
-                                    <div class="cell">pilot nickname</div>
-                                    <div class="cell" style="width: 30px;"></div>
-                                    <div class="cell">score</div>
-                                </div>
-
-                                <a class="row" href="/en/pilot/2944/-332FG-Magic_Zach/?tour=21">
-                                    <div class="cell">1</div>
-                                    <div class="cell">-332FG-Magic_Zach</div>
-                                    <div class="cell img">
+                    </div>
+                    <div class="pb-3"></div>
+                </div>
 
 
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">6525</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
-                                    <div class="cell">2</div>
-                                    <div class="cell">QB.Creep</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">5095</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/158/71st_AH_Barnacles/?tour=21">
-                                    <div class="cell">3</div>
-                                    <div class="cell">71st_AH_Barnacles</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">5011</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/1196/=EXPEND=13SchwarzeHand/?tour=21">
-                                    <div class="cell">4</div>
-                                    <div class="cell">=EXPEND=13SchwarzeHand</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">4616</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/4688/=EXPEND=Dendro/?tour=21">
-                                    <div class="cell">5</div>
-                                    <div class="cell">=EXPEND=Dendro</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">4148</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/371/QB.Rails/?tour=21">
-                                    <div class="cell">6</div>
-                                    <div class="cell">QB.Rails</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">3789</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/2865/=VARP=Affe-mit-Waffe/?tour=21">
-                                    <div class="cell">7</div>
-                                    <div class="cell">=VARP=Affe-mit-Waffe</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">3439</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/828/=EXPEND=CG_Justin/?tour=21">
-                                    <div class="cell">8</div>
-                                    <div class="cell">=EXPEND=CG_Justin</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">3139</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/161/15%5BSpan.%5D/JG51Navarro/?tour=21">
-                                    <div class="cell">9</div>
-                                    <div class="cell">15[Span.]/JG51Navarro</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
-                                            width="15" height="24" title="Axis" alt="Axis">
-
-
-                                    </div>
-                                    <div class="cell">2790</div>
-                                </a>
-
-                                <a class="row" href="/en/pilot/1653/6FG_Moonbeam/?tour=21">
-                                    <div class="cell">10</div>
-                                    <div class="cell">6FG_Moonbeam</div>
-                                    <div class="cell img">
-
-
-                                        <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
-                                            width="15" height="24" title="Allies" alt="Allies">
-
-
-                                    </div>
-                                    <div class="cell">2278</div>
-                                </a>
-
-                            </div>
+                <!-- 
+                    <div class="top_pilots" style="float: left;">
+                        <div class="top_title">
+                            Best pilots in the last 24 hours
                         </div>
+                        <div class="top_table">
+                            <div class="head_row">
+                                <div class="cell" style="width: 30px;">#</div>
+                                <div class="cell">pilot nickname</div>
+                                <div class="cell" style="width: 30px;"></div>
+                                <div class="cell">score</div>
+                            </div>
+
+                            <a class="row" href="/en/pilot/1654/III/JG52_Lucho/?tour=21">
+                                <div class="cell">1</div>
+                                <div class="cell">III/JG52_Lucho</div>
+                                <div class="cell img">
 
 
-                       
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
 
-                        <div class="full_rating">
-                            <a href="/en/pilots/?tour=21">
-                                <span>
-                                    Overall Pilot Rankings
-                                </span>
+
+                                </div>
+                                <div class="cell">9019</div>
                             </a>
-                        </div> -->
+
+                            <a class="row" href="/en/pilot/124/III/JG52_Supongo/?tour=21">
+                                <div class="cell">2</div>
+                                <div class="cell">III/JG52_Supongo</div>
+                                <div class="cell img">
 
 
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">4153</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/1662/C6_PetiO----Youtube/?tour=21">
+                                <div class="cell">3</div>
+                                <div class="cell">C6_PetiO----Youtube</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">3692</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/239/69th_WarEagle/?tour=21">
+                                <div class="cell">4</div>
+                                <div class="cell">69th_WarEagle</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">3543</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/1363/CIA_Elanski/?tour=21">
+                                <div class="cell">5</div>
+                                <div class="cell">CIA_Elanski</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">3393</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/58/JG300_Faucon/?tour=21">
+                                <div class="cell">6</div>
+                                <div class="cell">JG300_Faucon</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">3291</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/10477/312Romin/?tour=21">
+                                <div class="cell">7</div>
+                                <div class="cell">312Romin</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">3211</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/3026/Krupinskii/?tour=21">
+                                <div class="cell">8</div>
+                                <div class="cell">Krupinskii</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">2626</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/203/MeoW.Scharfi/?tour=21">
+                                <div class="cell">9</div>
+                                <div class="cell">MeoW.Scharfi</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">2539</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
+                                <div class="cell">10</div>
+                                <div class="cell">QB.Creep</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">2439</div>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="top_pilots" style="float: right;">
+                        <div class="top_title">
+                            Best live pilots
+                        </div>
+                        <div class="top_table">
+                            <div class="head_row">
+                                <div class="cell" style="width: 30px;">#</div>
+                                <div class="cell">pilot nickname</div>
+                                <div class="cell" style="width: 30px;"></div>
+                                <div class="cell">score</div>
+                            </div>
+
+                            <a class="row" href="/en/pilot/2944/-332FG-Magic_Zach/?tour=21">
+                                <div class="cell">1</div>
+                                <div class="cell">-332FG-Magic_Zach</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">6525</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/451/QB.Creep/?tour=21">
+                                <div class="cell">2</div>
+                                <div class="cell">QB.Creep</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">5095</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/158/71st_AH_Barnacles/?tour=21">
+                                <div class="cell">3</div>
+                                <div class="cell">71st_AH_Barnacles</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">5011</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/1196/=EXPEND=13SchwarzeHand/?tour=21">
+                                <div class="cell">4</div>
+                                <div class="cell">=EXPEND=13SchwarzeHand</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">4616</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/4688/=EXPEND=Dendro/?tour=21">
+                                <div class="cell">5</div>
+                                <div class="cell">=EXPEND=Dendro</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">4148</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/371/QB.Rails/?tour=21">
+                                <div class="cell">6</div>
+                                <div class="cell">QB.Rails</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">3789</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/2865/=VARP=Affe-mit-Waffe/?tour=21">
+                                <div class="cell">7</div>
+                                <div class="cell">=VARP=Affe-mit-Waffe</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">3439</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/828/=EXPEND=CG_Justin/?tour=21">
+                                <div class="cell">8</div>
+                                <div class="cell">=EXPEND=CG_Justin</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">3139</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/161/15%5BSpan.%5D/JG51Navarro/?tour=21">
+                                <div class="cell">9</div>
+                                <div class="cell">15[Span.]/JG51Navarro</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_2.96f5da61b392.png"
+                                        width="15" height="24" title="Axis" alt="Axis">
+
+
+                                </div>
+                                <div class="cell">2790</div>
+                            </a>
+
+                            <a class="row" href="/en/pilot/1653/6FG_Moonbeam/?tour=21">
+                                <div class="cell">10</div>
+                                <div class="cell">6FG_Moonbeam</div>
+                                <div class="cell img">
+
+
+                                    <img src="https://static.combatbox.net/img/icons/small/coal_1.7dadefdf0056.png"
+                                        width="15" height="24" title="Allies" alt="Allies">
+
+
+                                </div>
+                                <div class="cell">2278</div>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    
+
+                    <div class="full_rating">
+                        <a href="/en/pilots/?tour=21">
+                            <span>
+                                Overall Pilot Rankings
+                            </span>
+                        </a>
+                    </div> -->
+
+
+            </div>
+            <div class="col-12 col-md-6">
+
+                <div class="card my-2">
+                    <div class="card-text pl-1">Coalitions</div>
+                    <h3 class="card-title d-flex justify-content-start">
+                        <div class="square square-red"></div>Allies
+                    </h3>
+                    <h3 class="card-title d-flex justify-content-start">
+                        <div class="square square-blue"></div>Axis
+                    </h3>
                 </div>
 
-                <div class="col-12 col-md-6">
 
-                    <div class="card my-2">
-                        <div class="card-text pl-1">Coalitions</div>
-                        <h3 class="card-title d-flex justify-content-start">
-                            <div class="square square-red"></div>Allies
-                        </h3>
-                        <h3 class="card-title d-flex justify-content-start">
-                            <div class="square square-blue"></div>Axis
-                        </h3>
-                    </div>
-
-
-                    <div class="card my-2">
-                        <div class="card-text pl-1">Tour: April 2020</div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-10 py-3">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 23%" aria-valuenow="15"
-                                        aria-valuemin="0" aria-valuemax="100">23 days left</div>
-                                </div>
+                <div class="card my-2">
+                    <div class="card-text pl-1">Tour: April 2020</div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10 py-3">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 23%" aria-valuenow="15"
+                                    aria-valuemin="0" aria-valuemax="100">23 days left</div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="card my-2">
-                        <div class="card-text pl-1">Active Players</div>
-                        <div class="card-text pl-1 d-flex justify-content-center">Total: 1556</div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-10 py-3">
-                                <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 45%"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                        648</div>
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                        214</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 45%"
-                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        694</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card my-2">
-                        <div class="card-text pl-1">Online Players</div>
-                        <div class="card-text pl-1 d-flex justify-content-center">Total: 14</div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-10 py-3">
-                                <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 21%"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                        3</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 79%"
-                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        11</div>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <a class="btn btn-secondary my-2" href="/en/online/" role="button">
-                                        List of pilots online
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
                 </div>
+
+                <div class="card my-2">
+                    <div class="card-text pl-1">Active Players</div>
+                    <div class="card-text pl-1 d-flex justify-content-center">Total: 1556</div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10 py-3">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 45%"
+                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                                    648</div>
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%"
+                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                                    214</div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    694</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card my-2">
+                    <div class="card-text pl-1">Online Players</div>
+                    <div class="card-text pl-1 d-flex justify-content-center">Total: 14</div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10 py-3">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 21%"
+                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                                    3</div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 79%"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    11</div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-secondary my-2" href="/en/online/" role="button">
+                                    List of pilots online
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
             </div>
         </div>
-    </section>
+    </div>
                 <!-- <div class="clearfix"></div>
 
 

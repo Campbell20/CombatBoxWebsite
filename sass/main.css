@@ -67,7 +67,7 @@ header .wrapper .user_menu a:last-child {
 }
 
 .header-image-wrapper {
-  background: #E74C3C url(../img/Banner.png) top center no-repeat;
+  background: url("../images/banner_example.png") top center no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

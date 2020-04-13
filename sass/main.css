@@ -1,9 +1,12 @@
 .stormbirds {
   position: absolute;
   left: 10.2rem;
-  background-color: white;
-  height: 4rem;
-  width: 10rem;
   z-index: 1;
+  height: 3.9rem;
+  width: 14.6rem;
+  background-image: url(../images/sturmovikfest2020.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /*# sourceMappingURL=main.css.map */

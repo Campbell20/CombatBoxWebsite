@@ -9,4 +9,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 0.1rem #3030309c;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    &:active {
+        box-shadow: none;
+    }
 }

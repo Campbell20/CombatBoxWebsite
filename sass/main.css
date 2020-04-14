@@ -21,4 +21,11 @@
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.stormbirds-text {
+  position: relative;
+  top: 10.4rem;
+  font-size: .7rem;
+  font-style: italic;
+}
 /*# sourceMappingURL=main.css.map */

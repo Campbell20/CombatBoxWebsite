@@ -17,4 +17,12 @@
     &:active {
         box-shadow: none;
     }
+
+
+    &-text {
+        position: relative;
+        top: 10.4rem;
+        font-size: .7rem;
+        font-style: italic;
+    }
 }
